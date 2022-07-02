@@ -1,3 +1,3 @@
-# myRecipy Project Demo only
+# myRecipe Project Demo only
 
 testing done!

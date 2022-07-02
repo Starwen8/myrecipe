@@ -6,8 +6,8 @@
   justify-content: space-between;
 
   &__logo {
-    margin-left: 4rem;
-    height: 4.6rem;
+    margin-left: 6rem;
+    height: 30rem;
     display: block;
   }
 }
@@ -29,8 +29,8 @@
     border: none;
     background: none;
     font-family: inherit;
-    color: inherit;
-    font-size: 1.7rem;
+    color: $color-primary;
+    font-size: 2rem;
     width: 30rem;
 
     &:focus {
