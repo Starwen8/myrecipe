@@ -1,0 +1,20 @@
+{
+  "name": "recipelog",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Star Wen",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.22.8",
+    "parcel": "^2.6.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0"
+  }
+}
