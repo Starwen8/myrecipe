@@ -14,6 +14,7 @@ if (module.hot) {
   module.hot.accept();
 }
 
+//starter
 const recipeContainer = document.querySelector('.recipe');
 
 const timeout = function (s) {

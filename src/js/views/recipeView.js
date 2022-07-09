@@ -66,7 +66,7 @@ class RecipeView extends View {
         }">
         
           <svg>
-            <use href="${icons}#icon-minus-circle"></use>
+            <use href="${icons}#icon-minus-circle"></use>         
           </svg>
         </button>
         <button class="btn--tiny btn--update-servings" data-update-to="${
@@ -79,11 +79,15 @@ class RecipeView extends View {
       </div>
     </div>
 
-    <div class="recipe__user-generated">
-      <svg>
-        <use href="${icons}#icon-user"></use>
-      </svg>
-    </div>
+   
+    <div class="recipe__info">
+    <svg class="recipe__info-icon">
+    <use href="${icons}#icon-user"></use>
+    </svg>
+    
+    <span class="recipe__info-text">${this._data.publisher}</span>
+   </div>
+    
 
     <button class="btn--round btn--bookmark">
       <svg class="">
@@ -104,7 +108,8 @@ class RecipeView extends View {
         <svg class="recipe__icon">
           <use href="${icons}#icon-check"></use>
         </svg>
-        <div class="recipe__quantity">${ing.quantity}</div>
+        <div class="recipe__quantity">
+          ${ing.quantity}</div>
         <div class="recipe__description">
           <span class="recipe__unit">${ing.unit}</span>
           ${ing.description}
